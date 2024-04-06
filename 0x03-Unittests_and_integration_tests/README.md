@@ -1,8 +1,9 @@
-#0x03. Unittests and Integration Tests
----
-	UnitTests
-	Back-end
-	Integration tests
+# 0x03. Unittests and Integration Tests
+
+*UnitTests*
+*Back-end*
+*Integration tests*
+ 
 - Weight: 1
 - Project will start Apr 4, 2024 6:00 AM, must end by Apr 9, 2024 6:00 AM
 - Checker was released at Apr 5, 2024 12:00 PM
@@ -23,8 +24,8 @@ Execute your tests with
 $ python -m unittest path/to/test_file.py
 ```
 
-##Resources
----
+## Resources
+
 
 Read or watch:
 
@@ -34,15 +35,15 @@ Read or watch:
 - [parameterized](https://pypi.org/project/parameterized/)
 - [Memoization](https://en.wikipedia.org/wiki/Memoization)
 
-##Learning Objectives
----
+## Learning Objectives
+
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google**:
 
 - The difference between unit and integration tests.
 - Common testing patterns such as mocking, parametrizations and fixtures
 
-##Requirements
----
+## Requirements
+
 
 - All your files will be interpreted/compiled on Ubuntu 18.04 LTS using ```python3``` (version 3.7)
 - All your files should end with a new line
@@ -56,10 +57,10 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 - All your functions and coroutines must be type-annotated.
 
-##Required Files
----
+## Required Files
 
-1. utils.py ( - [or download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
+
+1. utils.py ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
 
 ```
 #!/usr/bin/env python3
@@ -139,7 +140,7 @@ def memoize(fn: Callable) -> Callable:
     return property(memoized)
 ```
 
-2. client.py (- [or download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
+2. client.py ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
 
 ```
 #!/usr/bin/env python3
@@ -1157,8 +1158,8 @@ TEST_PAYLOAD = [
 ]
 ```
 
-##Tasks
-----
+## Tasks
+
 
 0. Parameterize a unit test
 
